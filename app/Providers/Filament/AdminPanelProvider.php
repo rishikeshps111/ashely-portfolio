@@ -35,15 +35,15 @@ class AdminPanelProvider extends PanelProvider
             ->login()
             ->passwordReset()
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => '#993333',
             ])
             ->globalSearch(false)
             ->navigationGroups([
                 'Masters',
             ])->sidebarCollapsibleOnDesktop()
             ->brandName('Portfolio')
-            ->brandLogo(asset('assets/img/favicon.ico'))
-            ->favicon(asset('assets/img/favicon.ico'))
+            ->brandLogo(asset('assets/img/logo-icon.jpg'))
+            ->favicon(asset('assets/img/logo-icon.jpg'))
             ->plugins([
                 FilamentEditProfilePlugin::make()
                     ->slug('my-profile')
