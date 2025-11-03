@@ -756,7 +756,7 @@ textarea {
   padding: 0 30px;
   width: 100%;
   font-size: 12px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
   font-weight: 500;
   font-family: "Outfit", sans-serif;
@@ -3479,7 +3479,7 @@ footer
   color: rgb(0, 0, 0);
   font-size: 12px;
   font-weight: 500;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
   border: none;
   border-radius: 70px;
