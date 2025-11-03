@@ -161,11 +161,10 @@ h4,
 .mil-h4,
 h5,
 .mil-h5,
-p,
 h6,
 .mil-h6 {
   font-family: "Outfit", sans-serif;
-  color: rgba(67, 66, 66, 0.4);
+  color: rgb(0, 0, 0);
   font-weight: 500;
   line-height: 120%;
 }
@@ -434,7 +433,7 @@ a {
 }
 
 .mil-muted {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .mil-dark {
@@ -568,7 +567,7 @@ link
   width: 40px;
   height: 40px;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
@@ -974,7 +973,6 @@ spaces
 
 .mil-mb-90 {
   margin-bottom: 90px;
-  color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .mil-mb-120 {
@@ -1381,13 +1379,13 @@ frame
   }
 
   .mil-frame .mil-frame-top .mil-logo {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
   }
 
   .mil-frame .mil-frame-top .mil-menu-btn span,
   .mil-frame .mil-frame-top .mil-menu-btn span:after,
   .mil-frame .mil-frame-top .mil-menu-btn span:before {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -1443,7 +1441,7 @@ frame
 
 .mil-frame-top .mil-logo {
   pointer-events: all;
-  /* color: rgb(0, 0, 0); */
+  color: rgb(0, 0, 0);
 }
 
 /* -------------------------------------------
@@ -1560,7 +1558,7 @@ menu
 }
 
 .mil-menu-frame .mil-frame-top .mil-logo {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 
 .mil-menu-frame .mil-frame-top .mil-menu-btn span,
@@ -1732,7 +1730,7 @@ menu
   -ms-flex-align: center;
   align-items: center;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 34px;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
@@ -1759,7 +1757,7 @@ menu
 }
 
 .mil-main-menu ul li a:hover {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 
 .mil-main-menu ul li a.mil-active {
@@ -1822,7 +1820,7 @@ menu
 }
 
 .mil-main-menu ul li.mil-has-children ul li a:hover {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   -webkit-transform: translateX(5px);
   transform: translateX(5px);
 }
@@ -3004,7 +3002,7 @@ social icons
 }
 
 .mil-social-icons li a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
   font-size: 18px;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
@@ -3436,7 +3434,7 @@ footer
   display: block;
   font-weight: 500;
   font-size: 28px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.9);
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
