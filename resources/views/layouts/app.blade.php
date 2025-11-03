@@ -11,7 +11,7 @@
     @include('layouts.style')
 
     <title>@yield('title') - {{ config('app.name', 'Laravel') }}</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo-icon.jpg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logoIcon.png') }}">
 
 
 </head>

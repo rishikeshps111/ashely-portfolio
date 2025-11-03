@@ -44,7 +44,7 @@ class AdminPanelProvider extends PanelProvider
             ])->sidebarCollapsibleOnDesktop()
             ->brandName('Portfolio')
             ->brandLogo(asset('assets/img/logo-icon.jpg'))
-            ->favicon(asset('assets/img/logo-icon.jpg'))
+            ->favicon(asset('assets/img/logoIcon.png'))
             ->plugins([
                 FilamentEditProfilePlugin::make()
                     ->slug('my-profile')
