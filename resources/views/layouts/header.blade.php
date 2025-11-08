@@ -2,7 +2,7 @@
 <div class="mil-menu-frame">
     <!-- frame clone -->
     <div class="mil-frame-top">
-        <a href="{{ route('home') }}" class="mil-logo">TM.</a>
+        <a href="{{ route('home') }}" class="mil-logo logo-1">TM.</a>
         <div class="mil-menu-btn">
             <span></span>
         </div>

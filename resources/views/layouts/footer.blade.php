@@ -5,10 +5,9 @@
             <div class="row justify-content-between">
                 <div class="col-md-4 col-lg-4 mil-mb-30">
                     <div class="mil-up d-flex justify-content-center">
-                        <img src="{{ asset('assets/img/logo-icon.jpg') }}" alt="TANVIGS MARN Logo" class="img-fluid"
-                            style="max-width: 110px; background-color: #000; border-radius: 8px; padding: 10px;">
+                        <img src="{{ asset('assets/img/logo.png') }}" alt="TANVIGS MARN Logo" class="img-fluid"
+                            style="max-width: 500px;">
                     </div>
-                    <div class="mil-muted mil-logo mil-up mil-mb-30 d-flex justify-content-center">TANVIGS MARN</div>
                     <p class="mil-light-soft mil-up mil-mb-30 d-flex justify-content-center">Subscribe our newsletter:
                     </p>
                     <form class="mil-subscribe-form mil-up">
