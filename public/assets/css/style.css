@@ -1441,7 +1441,7 @@ menu button
   display: block;
   width: 28px;
   height: 2.5px;
-  background: var(--bg);
+  background: var(--black);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: inherit;
