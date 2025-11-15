@@ -1375,7 +1375,7 @@ frame
   letter-spacing: 2px;
   font-size: 12px;
   width: 300px;
-  color: var(--bg);
+  color: var(--black);
   -webkit-transform: rotate(-90deg) translateX(138px) translateY(-138px);
   transform: rotate(-90deg) translateX(138px) translateY(-138px);
 }
