@@ -2624,7 +2624,7 @@ services
 }
 
 .mil-service-card-sm p {
-  opacity: 0;
+  opacity: .25;
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
   overflow: hidden;
